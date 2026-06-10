@@ -1,0 +1,17 @@
+v2.1.1 Release Notes
+====================
+
+Packaging and code quality updates. No functional changes.
+
+* Code quality and maintenance:
+  - Minor typing fix.
+  - Update gitignore to ignore common build & cached assests.
+  - Remove legacy travis config.
+
+* Packaging updates:
+  - Migrate python packaging from setup.py => pyproject.toml.
+  - Include build dependencies to support pyproject packaging.
+  - Set static datetime and exclude bytecode by default to make package leaner
+    and reproducable.
+  - Add py.typed typed code declaration file.
+  - Fix X-Python declation in control file.
