@@ -1,0 +1,7 @@
+v1.3.4 Release Notes
+====================
+
+Python2 release for Debian Trixie. No functional changes.
+
+* Code maintence:
+  - Eliminate external dependency; replace 'simplejson' with 'json'.
